@@ -1,4 +1,4 @@
-# John Doe's Student Site
+# Chris's Student Site
 
 This is a coded static website created as part of an in-class exercise during my summer Web Design Studio class
 
