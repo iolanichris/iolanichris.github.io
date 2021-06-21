@@ -1,3 +1,5 @@
-# iolanichris.github.io
+# John Doe's Student Site
 
-Edited readme
+This is a coded static website created as part of an in-class exercise during my summer Web Design Studio class
+
+[View my Site](https://iolanichris.github.io/)
