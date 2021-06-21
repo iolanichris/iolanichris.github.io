@@ -4,10 +4,10 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
-a:hover { color: rgba(0, 51, 153, 1); }
+a { color: rgba(33, 112, 9, .8); }
+a:hover { color: rgba(33, 112, 9, 1); }
 
-/* GLOBAL TYPOGRAPHY */
+/* GLOBAL TYPOGRAPHY */ 
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 88.75%; /* 14px */
@@ -25,16 +25,16 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    background-color: rgba(0, 102, 204, .8);
+    background-color: rgba(33, 112, 9, .8);;
     color: white;
     border-radius: 5px;
 }
 .button:hover {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(33, 112, 9, 1);
     color: white;
 }
 .button.dark {
-    color: rgba(0, 102, 204, 1);
+    color: rgba(33, 112, 9, 1);
     background-color: rgba(255, 255, 255,.8);
 }
 .button.dark:hover {
@@ -44,7 +44,7 @@ img {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(33, 112, 9);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -88,7 +88,7 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(33, 112, 9);
     text-align: center;
     color: white;
     padding: 6em 1em;
@@ -171,6 +171,18 @@ aside {
         margin: 0 3em 2em 0;
         padding: .3em 2em 0 0;
     }
+}
+
+/* HOME PAGE */
+.page-home header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+}
+.page-home .hero {
+    background-image: url('../images/plant.png');
+    background-size: cover;
+    padding-top: 10em;
 }
 
 /* SUB PAGES */
