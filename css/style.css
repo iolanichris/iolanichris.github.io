@@ -27,7 +27,7 @@ img {
     text-decoration: none;
     background-color: rgba(33, 112, 9, .8);;
     color: white;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 .button:hover {
     background-color: rgba(33, 112, 9, 1);
